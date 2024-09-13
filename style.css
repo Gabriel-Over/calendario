@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Playwrite BE WAL", cursive;
+    font-style: italic;
+    background-color: rgb(55, 5, 102);
+}
+
+.calendar-container {
+    background-color: rgb(210, 243, 241);
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 10px 5px rgba(0,0,0,.6);
+    overflow: hidden;
+}
+
+.month-name {
+    margin: 0;
+    color: rgb(210, 231, 17);
+    background-color:darkviolet;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.day-name {
+    font-size: 20px;
+    color:rgb(17, 6, 2);
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0;
+}
+
+.year {
+    margin: 10px;
+    font-size: 20px;
+    color:darkslategray
+}
